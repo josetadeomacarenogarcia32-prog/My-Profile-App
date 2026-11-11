@@ -1,19 +1,20 @@
 
 {
   "name": "My Profile App",
-  "short_name": "MY PROFILE",
-  "description": "Plataforma de gestión de links y perfiles personales con fotografía.",
-  "start_url": "index.html",
+  "short_name": "My Profile",
+  "description": "Plataforma de perfiles personales.",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#f5f7fa",
+  "background_color": "#121212",
   "theme_color": "#17324d",
   "icons": [
     {
-      "src": "/img/LogoNuevo.png",
+      "src": "./img/LogoNuevo.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     }
   ]
 }
