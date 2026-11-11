@@ -40,5 +40,15 @@
     <p>Estudiante de Universidad | Desarrollador Backend</p>
     <a href="https://github.com/josetadeomacarenogarcia32-prog" class="btn">GitHub</a>
     <a href="https://www.instagram.com/macareno_t13/?hl=es" class="btn">Instagram</a>
+
+
+<script>
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("./sw.js")
+        .then(() => console.log("Service Worker registrado"))
+        .catch(error => console.error(error));
+}
+</script>
+
 </body>
 </html>
